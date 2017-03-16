@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * resume.xml
+ *
+ * @since    Jan 31, 2008
+ *
+ * @author    rzempel
+ * @author    jzempel
+-->
+<Resume xmlns="http://ns.hr-xml.org/2006-02-28"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://ns.hr-xml.org/2006-02-28 http://ns.hr-xml.org/2_4/HR-XML-2_4/SEP/Resume.xsd">
+    <StructuredXMLResume>
+        <ContactInfo>
+            <PersonName>
+                <GivenName>Renée</GivenName>
+                <FamilyName>Zempel</FamilyName>
+            </PersonName>
+            <ContactMethod>
+                <Telephone>
+                    <FormattedNumber>408.430.3004</FormattedNumber>
+                </Telephone>
+                <InternetEmailAddress>renee.zempel@gmail.com</InternetEmailAddress>
+                <InternetWebAddress>http://bit.ly/huS2J3</InternetWebAddress>
+                <PostalAddress>
+                    <CountryCode>US</CountryCode>
+                    <PostalCode>95120</PostalCode>
+                    <Region>CA</Region>
+                    <Municipality>San Jose</Municipality>
+                    <DeliveryAddress>
+                        <AddressLine>6905 Villagewood Way</AddressLine>
+                    </DeliveryAddress>
+                </PostalAddress>
+            </ContactMethod>
+        </ContactInfo>
+        <ExecutiveSummary>
+            A motivated and enthusiastic individual who loves to teach and loves to learn. Dedicated
+            to providing the best of education and care to elementary and middle school children.
+        </ExecutiveSummary>
+        <Objective />
+        <EmploymentHistory>
+            <EmployerOrg>
+                <EmployerOrgName>Roundtree Schoolhouse</EmployerOrgName>
+                <EmployerContactInfo>
+                    <ContactMethod>
+                        <PostalAddress>
+                            <CountryCode>US</CountryCode>
+                            <PostalCode>95120</PostalCode>
+                            <Region>CA</Region>
+                            <Municipality>San Jose</Municipality>
+                            <DeliveryAddress>
+                                <AddressLine>6905 Villagewood Way</AddressLine>
+                            </DeliveryAddress>
+                        </PostalAddress>
+                    </ContactMethod>
+                </EmployerContactInfo>
+                <PositionHistory>
+                    <Title>Homeschool Teacher</Title>
+                    <OrgName>
+                        <OrganizationName>PreK - 7th Grade</OrganizationName>
+                    </OrgName>
+                    <Description />
+                    <StartDate>
+                        <YearMonth>2002-09</YearMonth>
+                    </StartDate>
+                    <Competency
+                        description="Taught, managed, and facilitated the education and record keeping of my own children in all subject areas" />
+                    <Competency
+                        description="Researched the methods and philosophy of classical education extensively" />
+                    <Competency
+                        description="Researched curriculums for elementary subject areas extensively" />
+                    <Competency
+                        description="Participated and taught in a lower elementary grade homeschool co-op group" />
+                    <Competency
+                        description="Attended numerous homeschool teachers' classes and conferences" />
+                </PositionHistory>
+            </EmployerOrg>
+            <EmployerOrg>
+                <EmployerOrgName>King's Christian Academy</EmployerOrgName>
+                <EmployerContactInfo>
+                    <ContactMethod>
+                        <PostalAddress>
+                            <CountryCode>US</CountryCode>
+                            <PostalCode>55409</PostalCode>
+                            <Region>MN</Region>
+                            <Municipality>Minneapolis</Municipality>
+                            <DeliveryAddress>
+                                <AddressLine>4500 Clinton Ave.</AddressLine>
+                            </DeliveryAddress>
+                        </PostalAddress>
+                    </ContactMethod>
+                </EmployerContactInfo>
+                <PositionHistory>
+                    <Title>Elementary and Middle School Teacher</Title>
+                    <OrgName>
+                        <OrganizationName>5th - 8th Grade</OrganizationName>
+                    </OrgName>
+                    <Description />
+                    <StartDate>
+                        <YearMonth>1997-09</YearMonth>
+                    </StartDate>
+                    <EndDate>
+                        <YearMonth>1997-12</YearMonth>
+                    </EndDate>
+                    <Competency description="Worked in a team-teaching capacity" />
+                    <Competency description="Taught all 5th - 8th grade math and science classes" />
+                    <Competency
+                        description="Conceptualized the creation, organization, and writing of a parent/student policy handbook for upper elementary and junior high grades" />
+                    <Competency
+                        description="Organized the school's multi-grade level annual science fair" />
+                </PositionHistory>
+            </EmployerOrg>
+            <EmployerOrg>
+                <EmployerOrgName>Santa Clarita Christian School</EmployerOrgName>
+                <EmployerContactInfo>
+                    <ContactMethod>
+                        <PostalAddress>
+                            <CountryCode>US</CountryCode>
+                            <PostalCode>91351</PostalCode>
+                            <Region>CA</Region>
+                            <Municipality>Santa Clarita</Municipality>
+                            <DeliveryAddress>
+                                <AddressLine>27249 Luther Dr.</AddressLine>
+                            </DeliveryAddress>
+                        </PostalAddress>
+                    </ContactMethod>
+                </EmployerContactInfo>
+                <PositionHistory>
+                    <Title>Elementary Teacher</Title>
+                    <OrgName>
+                        <OrganizationName>6th Grade</OrganizationName>
+                    </OrgName>
+                    <Description />
+                    <StartDate>
+                        <YearMonth>1996-09</YearMonth>
+                    </StartDate>
+                    <EndDate>
+                        <YearMonth>1997-06</YearMonth>
+                    </EndDate>
+                    <Competency description="Worked in a team-teaching capacity" />
+                    <Competency description="Taught all 6th grade math, science, and Bible classes" />
+                    <Competency
+                        description="Directed, planned, and organized the school's multi-grade level annual science fair" />
+                    <Competency
+                        description="Participated in and contributed to the ACSI school accreditation process" />
+                </PositionHistory>
+            </EmployerOrg>
+        </EmploymentHistory>
+        <EducationHistory>
+            <SchoolOrInstitution schoolType="University">
+                <SchoolName>Bob Jones University</SchoolName>
+                <Degree degreeType="bachelors">
+                    <DegreeName>Bachelors of Science</DegreeName>
+                    <DegreeDate>
+                        <Year>1995</Year>
+                    </DegreeDate>
+                    <DegreeMajor>
+                        <Name>Elementary Education</Name>
+                    </DegreeMajor>
+                    <DegreeMinor>
+                        <Name>English</Name>
+                    </DegreeMinor>
+                    <DegreeMeasure>
+                        <EducationalMeasure>
+                            <MeasureSystem>GPA</MeasureSystem>
+                            <MeasureValue>
+                                <NumericValue>3.0</NumericValue>
+                            </MeasureValue>
+                        </EducationalMeasure>
+                    </DegreeMeasure>
+                    <Comments>Student Teacher of the Year Nomination</Comments>
+                </Degree>
+            </SchoolOrInstitution>
+        </EducationHistory>
+        <Achievements>
+            <Achievement>
+                <Date>
+                    <StringDate>1999-Present</StringDate>
+                </Date>
+                <Description>Religious teaching experience: 1) teaching children, 2) training volunteers, 3) formulating ministry goals and objectives</Description>
+            </Achievement>
+            <Achievement>
+                <Date>
+                    <Year>1995</Year>
+                </Date>
+                <Description>Student teaching experience in a 1st grade class</Description>
+            </Achievement>
+            <Achievement>
+                <Date>
+                    <Year>1994</Year>
+                </Date>
+                <Description>Clinical teaching experience in a 2nd grade class</Description>
+            </Achievement>
+            <Achievement>
+                <Date>
+                    <Year>1993</Year>
+                </Date>
+                <Description>Practicum experience with junior high students</Description>
+            </Achievement>
+            <Achievement>
+                <Date>
+                    <Year>1993</Year>
+                </Date>
+                <Description>Tutoring experience</Description>
+            </Achievement>
+        </Achievements>
+        <ResumeAdditionalItems>
+            <ResumeAdditionalItem>
+                <Description>Spending time with my husband, 4 children, and friends</Description>
+            </ResumeAdditionalItem>
+            <ResumeAdditionalItem>
+                <Description>Participating in my church</Description>
+            </ResumeAdditionalItem>
+            <ResumeAdditionalItem>
+                <Description>Reading</Description>
+            </ResumeAdditionalItem>
+            <ResumeAdditionalItem>
+                <Description>Cooking</Description>
+            </ResumeAdditionalItem>
+            <ResumeAdditionalItem>
+                <Description>Party planning and entertaining</Description>
+            </ResumeAdditionalItem>
+            <ResumeAdditionalItem>
+                <Description>Hiking with my family</Description>
+            </ResumeAdditionalItem>
+            <ResumeAdditionalItem>
+                <Description>Listening to music</Description>
+            </ResumeAdditionalItem>
+        </ResumeAdditionalItems>
+        <RevisionDate>2011-03-05</RevisionDate>
+    </StructuredXMLResume>
+</Resume>
