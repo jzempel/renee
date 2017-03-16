@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<!--
+ * Renée Zempel's Resume.
+ *
+ * @author  jzempel
+ *
+ * @since   Jan 31, 2008
+-->
+<html>
+<head>
+<title>Renée Zempel's Resume</title>
+<meta charset="utf-8" />
+<body>
+  <script src="//jzempel.github.io/index.js"></script>
+  <script>
+  (function() {
+    var xmlUrl = 'resume.xml';
+    var xslUrl = 'xsl/resume2html.xsl';
+    var links = { 'PDF Resume': 'Renee Zempel.pdf' };
+    var html = transform(xmlUrl, xslUrl, links);
+
+    if (html != null)
+    {
+      document.open();
+      document.write(html);
+      document.close();
+    }
+    else
+    {
+      location.replace('Renee Zempel.pdf');
+    }
+  })();
+  </script>
+</body>
+</html>
